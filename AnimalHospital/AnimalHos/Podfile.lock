@@ -1,0 +1,108 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (5.6.2)
+  - FLKAutoLayout (0.2.1)
+  - KakaoSDK (2.11.3):
+    - KakaoSDKAuth (= 2.11.3)
+    - KakaoSDKCommon (= 2.11.3)
+    - KakaoSDKFriend (= 2.11.3)
+    - KakaoSDKNavi (= 2.11.3)
+    - KakaoSDKShare (= 2.11.3)
+    - KakaoSDKStory (= 2.11.3)
+    - KakaoSDKTalk (= 2.11.3)
+    - KakaoSDKTemplate (= 2.11.3)
+    - KakaoSDKUser (= 2.11.3)
+  - KakaoSDKAuth (2.11.3):
+    - KakaoSDKCommon (= 2.11.3)
+  - KakaoSDKCommon (2.11.3):
+    - KakaoSDKCommon/Common (= 2.11.3)
+    - KakaoSDKCommon/Network (= 2.11.3)
+  - KakaoSDKCommon/Common (2.11.3)
+  - KakaoSDKCommon/Network (2.11.3):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.11.3)
+  - KakaoSDKFriend (2.11.3):
+    - KakaoSDKUser (= 2.11.3)
+  - KakaoSDKNavi (2.11.3):
+    - KakaoSDKCommon/Common (= 2.11.3)
+  - KakaoSDKShare (2.11.3):
+    - KakaoSDKCommon (= 2.11.3)
+    - KakaoSDKTemplate (= 2.11.3)
+  - KakaoSDKStory (2.11.3):
+    - KakaoSDKUser (= 2.11.3)
+  - KakaoSDKTalk (2.11.3):
+    - KakaoSDKTemplate (= 2.11.3)
+    - KakaoSDKUser (= 2.11.3)
+  - KakaoSDKTemplate (2.11.3):
+    - KakaoSDKCommon/Common (= 2.11.3)
+  - KakaoSDKUser (2.11.3):
+    - KakaoSDKAuth (= 2.11.3)
+  - ORStackView (3.0.1):
+    - FLKAutoLayout (~> 0.2)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - Alamofire (~> 5.5)
+  - KakaoSDK
+  - ORStackView (~> 3.0)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - FLKAutoLayout
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKFriend
+    - KakaoSDKNavi
+    - KakaoSDKShare
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - ORStackView
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
+  KakaoSDK: 7ebf1862d9f9014e402eb756b2d906a60c092661
+  KakaoSDKAuth: a64dde90516e18fdfc35b83bbad2677c3675c329
+  KakaoSDKCommon: b4235203f67a5b6ee2df75eaf9bbc863c6d92e09
+  KakaoSDKFriend: 0babeed5e025207a518a53fee08b7e369c009238
+  KakaoSDKNavi: 5168499579e915cf87c5f715b8de3c0706e310a3
+  KakaoSDKShare: 1a43689303e049a9b61a10e079ddb66e6e4a9806
+  KakaoSDKStory: d932e8a4a2d2ad9ca04b789aacb510eb65865c84
+  KakaoSDKTalk: f20736b6016c25b136cfc62b1949dc15686a2751
+  KakaoSDKTemplate: 295e57cf2826bc2cbdaf2c37e1ee62e69ea58d74
+  KakaoSDKUser: 9a42e9b74855ce876b071c841418aa6726534010
+  ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: f51ce793120e8e0d889a243747fd0c8c0374ecba
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A65E062927B1C70017B359 /* HospitalcollectionVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A65E052927B1C70017B359 /* HospitalcollectionVc.swift */; };
+		42BCC6BE2930B56000CBF5C9 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BCC6BD2930B56000CBF5C9 /* Storage.swift */; };
+		42ED20292927C2EC00CD54F8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED20272927C2EC00CD54F8 /* CollectionViewCell.swift */; };
+		42ED202A2927C2EC00CD54F8 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42ED20282927C2EC00CD54F8 /* CollectionViewCell.xib */; };
+		42ED202C2927C7BE00CD54F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ED202B2927C7BE00CD54F8 /* Main.storyboard */; };
+		42ED202E2927D23100CD54F8 /* CellStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED202D2927D23100CD54F8 /* CellStruct.swift */; };
+		42ED20302928128600CD54F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED202F2928128600CD54F8 /* LoginViewController.swift */; };
+		42ED203229282FB500CD54F8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED203129282FB500CD54F8 /* MapViewController.swift */; };
+		42FC578329277C9A00B6B5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC578229277C9A00B6B5DA /* AppDelegate.swift */; };
+		42FC578529277C9A00B6B5DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC578429277C9A00B6B5DA /* SceneDelegate.swift */; };
+		42FC578729277C9A00B6B5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC578629277C9A00B6B5DA /* ViewController.swift */; };
+		42FC578C29277C9B00B6B5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FC578B29277C9B00B6B5DA /* Assets.xcassets */; };
+		42FC578F29277C9B00B6B5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FC578D29277C9B00B6B5DA /* LaunchScreen.storyboard */; };
+		42FC579C292782DC00B6B5DA /* HospitalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC579B292782DC00B6B5DA /* HospitalResponse.swift */; };
+		42FC579E2927833900B6B5DA /* HospitalRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FC579D2927833900B6B5DA /* HospitalRequest.swift */; };
+		EA5530C84740BCA13078FD82 /* Pods_AnimalHos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED175DD0EB993DA6CFB641E5 /* Pods_AnimalHos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42A65E052927B1C70017B359 /* HospitalcollectionVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalcollectionVc.swift; sourceTree = "<group>"; };
+		42BCC6BD2930B56000CBF5C9 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		42ED20272927C2EC00CD54F8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		42ED20282927C2EC00CD54F8 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		42ED202B2927C7BE00CD54F8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		42ED202D2927D23100CD54F8 /* CellStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStruct.swift; sourceTree = "<group>"; };
+		42ED202F2928128600CD54F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		42ED203129282FB500CD54F8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		42ED20412928356F00CD54F8 /* AnimalHos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AnimalHos-Bridging-Header.h"; path = "AnimalHos/AnimalHos-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		42FC577F29277C9A00B6B5DA /* AnimalHos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalHos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FC578229277C9A00B6B5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42FC578429277C9A00B6B5DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		42FC578629277C9A00B6B5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42FC578B29277C9B00B6B5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42FC578E29277C9B00B6B5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42FC579029277C9B00B6B5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FC579B292782DC00B6B5DA /* HospitalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalResponse.swift; sourceTree = "<group>"; };
+		42FC579D2927833900B6B5DA /* HospitalRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalRequest.swift; sourceTree = "<group>"; };
+		4BF8458181AEC25042FC1CFA /* Pods-AnimalHos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalHos.debug.xcconfig"; path = "Target Support Files/Pods-AnimalHos/Pods-AnimalHos.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA0152C1A179B787310BDF4 /* Pods-AnimalHos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalHos.release.xcconfig"; path = "Target Support Files/Pods-AnimalHos/Pods-AnimalHos.release.xcconfig"; sourceTree = "<group>"; };
+		ED175DD0EB993DA6CFB641E5 /* Pods_AnimalHos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalHos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FC577C29277C9A00B6B5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5530C84740BCA13078FD82 /* Pods_AnimalHos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A65E042927AACB0017B359 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				42ED20272927C2EC00CD54F8 /* CollectionViewCell.swift */,
+				42ED20282927C2EC00CD54F8 /* CollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		42FC577629277C9A00B6B5DA = {
+			isa = PBXGroup;
+			children = (
+				42FC578129277C9A00B6B5DA /* AnimalHos */,
+				42FC578029277C9A00B6B5DA /* Products */,
+				67E3A099C690A6C8511BE1EE /* Pods */,
+				BE440463A93E6E4013A520C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42FC578029277C9A00B6B5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FC577F29277C9A00B6B5DA /* AnimalHos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FC578129277C9A00B6B5DA /* AnimalHos */ = {
+			isa = PBXGroup;
+			children = (
+				42FC579A292781A900B6B5DA /* Model */,
+				42FC57992927819800B6B5DA /* View */,
+				42FC57982927818B00B6B5DA /* Controller */,
+				42FC57972927818500B6B5DA /* Resource */,
+				42FC57962927817C00B6B5DA /* Application */,
+			);
+			path = AnimalHos;
+			sourceTree = "<group>";
+		};
+		42FC57962927817C00B6B5DA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				42FC578229277C9A00B6B5DA /* AppDelegate.swift */,
+				42FC578429277C9A00B6B5DA /* SceneDelegate.swift */,
+				42ED20412928356F00CD54F8 /* AnimalHos-Bridging-Header.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		42FC57972927818500B6B5DA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				42FC578B29277C9B00B6B5DA /* Assets.xcassets */,
+				42FC578D29277C9B00B6B5DA /* LaunchScreen.storyboard */,
+				42FC579029277C9B00B6B5DA /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		42FC57982927818B00B6B5DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				42FC578629277C9A00B6B5DA /* ViewController.swift */,
+				42A65E052927B1C70017B359 /* HospitalcollectionVc.swift */,
+				42ED202F2928128600CD54F8 /* LoginViewController.swift */,
+				42ED203129282FB500CD54F8 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		42FC57992927819800B6B5DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42A65E042927AACB0017B359 /* Cells */,
+				42ED202B2927C7BE00CD54F8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42FC579A292781A900B6B5DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42FC579B292782DC00B6B5DA /* HospitalResponse.swift */,
+				42FC579D2927833900B6B5DA /* HospitalRequest.swift */,
+				42ED202D2927D23100CD54F8 /* CellStruct.swift */,
+				42BCC6BD2930B56000CBF5C9 /* Storage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67E3A099C690A6C8511BE1EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BF8458181AEC25042FC1CFA /* Pods-AnimalHos.debug.xcconfig */,
+				ABA0152C1A179B787310BDF4 /* Pods-AnimalHos.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE440463A93E6E4013A520C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED175DD0EB993DA6CFB641E5 /* Pods_AnimalHos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FC577E29277C9A00B6B5DA /* AnimalHos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FC579329277C9B00B6B5DA /* Build configuration list for PBXNativeTarget "AnimalHos" */;
+			buildPhases = (
+				BAE676076B9A4E163EF3A102 /* [CP] Check Pods Manifest.lock */,
+				42FC577B29277C9A00B6B5DA /* Sources */,
+				42FC577C29277C9A00B6B5DA /* Frameworks */,
+				42FC577D29277C9A00B6B5DA /* Resources */,
+				71520667C795299B35226FCD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalHos;
+			productName = AnimalHos;
+			productReference = 42FC577F29277C9A00B6B5DA /* AnimalHos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FC577729277C9A00B6B5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					42FC577E29277C9A00B6B5DA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 42FC577A29277C9A00B6B5DA /* Build configuration list for PBXProject "AnimalHos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FC577629277C9A00B6B5DA;
+			productRefGroup = 42FC578029277C9A00B6B5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FC577E29277C9A00B6B5DA /* AnimalHos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FC577D29277C9A00B6B5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FC578F29277C9B00B6B5DA /* LaunchScreen.storyboard in Resources */,
+				42FC578C29277C9B00B6B5DA /* Assets.xcassets in Resources */,
+				42ED202A2927C2EC00CD54F8 /* CollectionViewCell.xib in Resources */,
+				42ED202C2927C7BE00CD54F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71520667C795299B35226FCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalHos/Pods-AnimalHos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalHos/Pods-AnimalHos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalHos/Pods-AnimalHos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE676076B9A4E163EF3A102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalHos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FC577B29277C9A00B6B5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ED20302928128600CD54F8 /* LoginViewController.swift in Sources */,
+				42BCC6BE2930B56000CBF5C9 /* Storage.swift in Sources */,
+				42ED202E2927D23100CD54F8 /* CellStruct.swift in Sources */,
+				42A65E062927B1C70017B359 /* HospitalcollectionVc.swift in Sources */,
+				42ED203229282FB500CD54F8 /* MapViewController.swift in Sources */,
+				42FC578729277C9A00B6B5DA /* ViewController.swift in Sources */,
+				42FC579E2927833900B6B5DA /* HospitalRequest.swift in Sources */,
+				42ED20292927C2EC00CD54F8 /* CollectionViewCell.swift in Sources */,
+				42FC579C292782DC00B6B5DA /* HospitalResponse.swift in Sources */,
+				42FC578329277C9A00B6B5DA /* AppDelegate.swift in Sources */,
+				42FC578529277C9A00B6B5DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42FC578D29277C9B00B6B5DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FC578E29277C9B00B6B5DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FC579129277C9B00B6B5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42FC579229277C9B00B6B5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FC579429277C9B00B6B5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF8458181AEC25042FC1CFA /* Pods-AnimalHos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalHos/Resource/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.AnimalHos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ryu/Desktop/Rising_Camp_Ios/AnimalHospital/AnimalHos/AnimalHos/AnimalHos-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42FC579529277C9B00B6B5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA0152C1A179B787310BDF4 /* Pods-AnimalHos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalHos/Resource/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = ryu.AnimalHos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ryu/Desktop/Rising_Camp_Ios/AnimalHospital/AnimalHos/AnimalHos/AnimalHos-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FC577A29277C9A00B6B5DA /* Build configuration list for PBXProject "AnimalHos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FC579129277C9B00B6B5DA /* Debug */,
+				42FC579229277C9B00B6B5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FC579329277C9B00B6B5DA /* Build configuration list for PBXNativeTarget "AnimalHos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FC579429277C9B00B6B5DA /* Debug */,
+				42FC579529277C9B00B6B5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FC577729277C9A00B6B5DA /* Project object */;
+}
